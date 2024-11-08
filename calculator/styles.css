@@ -1,14 +1,13 @@
 body {
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+    height: auto;
+    background-color: hsl(140, 90%, 76%);
 }
 button {
-    width: 100px;
-    height: 100px;
+    width: 55px;
+    height: 55px;
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
@@ -36,7 +35,8 @@ button:active {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    width : 300px;
+    height: fit-content;
     overflow: hidden;
 }
 #keys {
@@ -46,9 +46,9 @@ button:active {
     padding: 25px;
 }
 #display {
-    width: 100%;
+    width: 86.9%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);

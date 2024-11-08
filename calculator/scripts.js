@@ -1,6 +1,6 @@
 const display = document.getElementById("display");
 
-function appendToDisplay(input) {
+function showToDisplay(input) {
     display.value += input;
 }
 
