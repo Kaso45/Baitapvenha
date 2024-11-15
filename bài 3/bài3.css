@@ -1,0 +1,7 @@
+#menu {
+    background-color: rgb(122, 255, 173);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
